@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.contener{
+    height: 100vh;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    justify-content:center ;
+    background: bisque;
+}
+.calculator{
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+#cal1{
+    padding:30px;
+    border-radius: 10px;
+    border-color: brown;
+    border-bottom: 20px;
+    text-align: right;
+    flex: 20;
+}
+#cal2 input{
+    padding: 20px;
+   border-radius: 10px;
+   border-style: solid;
+font-size:10px;
+margin-top: 10px;
+}
+#cal3 input{
+    padding: 20px;
+    border-radius: 10px;
+    font-size:10px;
+    margin:2px;
+}
+#cal4 input{
+    padding: 20px;
+   border-radius: 10px;
+   border-style: solid;
+font-size:10px;
+margin:2px;
+}
+#cal5 input{
+    padding: 20px;
+    border-radius: 10px;
+    font-size:10px;
+    margin:2px;
+}
+#cal6 input{
+    padding: 20px;
+   border-radius: 10px;
+   border-style: solid;
+font-size:10px;
+margin:2px;
+}
+#cal6 input.equal{
+    width:100px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+}
+.calculator form input{
+cursor:pointer;
+}
+
+    
+    
+    
+
