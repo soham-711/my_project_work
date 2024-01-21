@@ -4,7 +4,8 @@
         right:11vw;
         } 
 }
-@media screen and(max-width:500px) {
-    image{
-        
+@media screen and (max-width:500px) {
+    img{
+        display: none;
     }
+}
