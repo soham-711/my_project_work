@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nev a{
+    text-decoration: none;
+    font-size: 2vh;
+    margin: 1vh;
+   
+}
+header{
+    background-color: blue;
+    padding: 3vh;
+    height: auto;
+}
+nev{
+
+   display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+/* icon...*/
+nev i{
+    position: relative;
+    right: 24vh;
+    bottom: 1vh;
+}
+/*footer*/
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+}
+/* image*/
+
+image{
+    width:100vw;
+}
